@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Table template</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container_main">
+      <div class="container_image">
+        <img id="picture" src="images/picture.jpg" />
+
+        <div class="odin_project">
+          <img id="logo" src="images/odin.png" />
+          <div>
+            <h1 id="logo_text">ODIN</h1>
+          </div>
+        </div>
+
+        <div class="attribution">
+          Photo by <a href="">Halie West</a> on <a href="">Unsplash</a>.
+        </div>
+      </div>
+
+      <div class="container_form">
+        <div class="desc">
+          <p id="desc_1">
+            This is not a real online service! You know you need something ike
+            this in your life to help you realize your deepset dreams. Sign up
+            now to get started.
+          </p>
+          <p id="desc_2">You know you want to.</p>
+        </div>
+        <form class="autorize">
+          <legend id="title">Let's do this!</legend>
+          <div class="form_cont">
+            <div class="name_email_pass">
+              <div class="first_area">
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  placeholder="Thor"
+                  required
+                />
+              </div>
+
+              <div class="email">
+                <label for="user_email">EMAIL:</label>
+                <input
+                  type="email"
+                  id="user_email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+
+              <div class="pass">
+                <label for="user_password">PASSWORD</label>
+                <input type="password" id="user_password" required />
+              </div>
+            </div>
+
+            <div class="surname_phone_confirm">
+              <div class="second_area">
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  id="last_name"
+                  placeholder="Odinson"
+                  required
+                />
+              </div>
+
+              <div class="phone_number">
+                <label for="user_phone">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  id="user_phone"
+                  placeholder="+7 (___) ___-__-__"
+                  pattern="\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}"
+                  required
+                />
+              </div>
+
+              <div class="confirm_pass">
+                <label for="user_password">CONFIRM PASSWORD</label>
+                <input type="password" id="user_password" required />
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="send">
+          <button type="submit">Create Account</button>
+        </div>
+        <div>
+          <p id="desc_3">Already have an account? <a href="">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
